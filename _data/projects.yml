@@ -1,0 +1,22 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+
+- project: LLaMa Inference Acceleration
+  role: Team Leader
+  duration: August, 2023 &mdash; October, 2023
+  url: "https://github.com/AI-CE-2023/nakta"
+  description: Served as Team Leader in the 2023 Samsung Computer Engineering Challenge, addressing the challenge of accelerating LLaMa inference. My role encompassed the leadership and direction of the team's efforts in developing and integrating Kernel Fusing techniques. I was also responsible for orchestrating the Scheduler to ensure efficient task allocation and execution. The project culminated with me leading the final evaluation to assess our project's performance and deliverables.
+
+
+- project: Cafe Management Platform
+  role: Lead Developer
+  duration: March, 2023 &mdash; June, 2023
+  # url: "#"
+  description: As the Lead Developer for a cafe management platform designed for cafe operators, I was responsible for the comprehensive development of the platform. This included constructing the database, building APIs, designing and implementing the frontend, and designing the network architecture for application serving.
+
+- project: SW Expert Training Program Healthcare Project
+  role: Lead Developer
+  duration: January, 2023 &mdash; March, 2023
+  url: "https://github.com/delibae/meal_plan_pr_public"
+  description: As the Lead Developer for the SW Expert Training Program's Healthcare Project, I was tasked with implementing MLOps using TFX. My responsibilities included frontend design, database architecture and construction, API development, and deploying services using a Kubernetes environment. Additionally, I managed the network infrastructure setup and oversaw the overall development process.
