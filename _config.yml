@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "Hajin Bae"
+resume_name:                    "Hanjin Bae"
 resume_title:                   "AI Researcher & Developer"
 
 # used for the contact button in _layouts/resume.html
