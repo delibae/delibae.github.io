@@ -3,14 +3,10 @@
 # - skill: Organizational leadership
 #   description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
-
 # Deep Learning
 - skill: PyTorch Multi-GPU LLM Training & Kernel Fusing
   description: Familiar with using PyTorch for training Large Language Models across multi-GPU environments, emphasizing efficient resource utilization. Knowledgeable in applying kernel fusing techniques to enhance performance of deep learning models on complex hardware setups.
 
 # Production
 - skill: Cloud-Based Web and Database Development
-  Description: Experienced in developing web applications and managing databases on cloud platforms. Proficient in deploying and maintaining scalable web solutions.
+  description: Experienced in developing web applications and managing databases on cloud platforms. Proficient in deploying and maintaining scalable web solutions.
