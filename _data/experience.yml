@@ -1,10 +1,6 @@
 # Jobs
-- company: Sungkyunkwan University, Computational Biophysics lab
-  position: Research Assistant (RA)
-  duration: June, 2023 &mdash; Present
-
 - company: Korea Institute For Advanced Study(KIAS)
-  position: Intern
+  position: Visiting Scientist
   duration: June, 2023 &mdash; Present
   summary:  Currently researching domain parsing issues using PLM and managing the Protein Database with cloud system.</li></ul>
 
@@ -13,6 +9,9 @@
   duration: October, 2023 &mdash; Present
   summary: Spearheading cutting-edge research in language model algorithms and overseeing the deployment of machine learning operations. Focused on enhancing model performance and operational efficiency, contributing to the development of scalable AI solutions.
 
+- company: Sungkyunkwan University, Computational Biophysics lab
+  position: Research Assistant (RA)
+  duration: June, 2023 &mdash; Present
 # # Communications Coordinator
 # - company: Springfield Women & Children's Center
 #   position: Communications Coordinator

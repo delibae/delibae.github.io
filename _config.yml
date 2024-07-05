@@ -21,7 +21,7 @@ resume_contact_email:           "iwdhanjin@gmail.com"
 # resume_contact_address:         "742 Evergreen Terrace, Springfield"
 
 # resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "true"
+display_header_contact_info:    "false"
 
 resume_header_intro: "<p>I'm an AI researcher and developer focused on advancing Protein Language Models (PLMs) by fine-tuning Large Language Models to understand the complex language of proteins. I'm also interested in multi-GPU computing to speed up AI workflows using advanced kernel methods.</p>"
 
