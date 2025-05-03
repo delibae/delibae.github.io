@@ -5,17 +5,17 @@
 
 # Deep Learning
 - skill: PyTorch Multi-GPU LLM Training & Kernel Fusing
-  description: Familiar with using PyTorch for training Large Language Models across multi-GPU environments, emphasizing efficient resource utilization. Knowledgeable in applying kernel fusing techniques to enhance performance of deep learning models on complex hardware setups.
+  description: Extensive experience in optimizing Large Language Models using PyTorch's distributed training capabilities. Specialized in kernel fusion techniques for maximizing GPU utilization and reducing memory overhead in complex deep learning architectures.
 
 # Production
-- skill: DevOps
-  description: Familiar with using Docker, Kubernetes, Jenkins, Jira, ArgoCD, Infisical, and other tools for efficient software development and deployment.
+- skill: DevOps & Infrastructure
+  description: Expert in implementing end-to-end CI/CD pipelines using Docker, Kubernetes, and ArgoCD. Proficient in managing development workflows with Jenkins and Jira, while ensuring secure credential management through Infisical.
 
-- skill: Cloud Computing
-  description: Familiar with using AWS services for cloud-based applications and databases.
+- skill: Cloud Architecture
+  description: Deep understanding of AWS ecosystem, including EC2, S3, RDS, and Lambda. Experience in designing scalable and cost-effective cloud infrastructures for production environments.
 
 - skill: Frontend Development
-  description: Familiar with using Next.js, Tailwind CSS, and TypeScript for building web applications.
+  description: Strong foundation in building responsive web applications using Next.js framework. Skilled in creating maintainable UI components with TypeScript and implementing modern designs through Tailwind CSS.
 
-- skill: Database & Backend Development
-  description: Familiar with using Next.js, FastAPI, and Express.js for backend development, along with PostgreSQL, MySQL, and MongoDB for database management. (with Prisma)
+- skill: Backend Development
+  description: Proficient in developing RESTful APIs using FastAPI and Express.js frameworks. Experienced in designing and managing both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) databases, with expertise in Prisma ORM for type-safe database operations.
