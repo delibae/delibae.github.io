@@ -1,10 +1,30 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+- project: mefriend.ai
+  role: CTO
+  duration: October, 2024 &mdash; Present
+  description: Leading the technical direction of an AI entertainment platform as CTO and co-founder. Fully responsible for the core inference system development and optimization. Oversee all technical aspects while also participating in overall strategic planning and vision as a founding member.
+
+- project: EnsBolz (Ensemble generation with Boltz)
+  role: Co-First Author
+  duration: 2024 &mdash; Present
+  description: Developed EnsBolz, an ensemble generation tool utilizing Boltz. (selected as a speaker for the LA Biophysics Society 2025)
+
+- project: DeepFold-PLM
+  role: Co-First Author
+  duration: 2024 &mdash; Present
+  description: Developed plmMSA, a fast and diverse multiple sequence alignment tool utilizing a Protein Language Model. (Presented at CASP16 and LA Biophysics Society 2025)
+
 - project: CASP16 (DeepFold group)
   role: Co-First Author
   duration: August, 2023 &mdash; December, 2024
   description: Achieved 3rd place in the Antibody/Peptide category. Developed plmMSA, a fast and diverse multiple sequence alignment tool utilizing a Protein Language Model.
+
+- project: AI Speaker Development Project
+  role: Lead Developer
+  duration: October, 2023 &mdash; October, 2024
+  description: Led the development of AI speaker's inference system and complex intelligence components, focusing on optimizing model performance and implementing advanced conversational capabilities.
 
 - project: LLaMa Inference Acceleration
   role: Team Leader

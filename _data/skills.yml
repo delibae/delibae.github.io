@@ -8,5 +8,14 @@
   description: Familiar with using PyTorch for training Large Language Models across multi-GPU environments, emphasizing efficient resource utilization. Knowledgeable in applying kernel fusing techniques to enhance performance of deep learning models on complex hardware setups.
 
 # Production
-- skill: Cloud-Based Web and Database Development
-  description: Experienced in developing web applications and managing databases on cloud platforms. Proficient in deploying and maintaining scalable web solutions.
+- skill: DevOps
+  description: Familiar with using Docker, Kubernetes, Jenkins, Jira, ArgoCD, Infisical, and other tools for efficient software development and deployment.
+
+- skill: Cloud Computing
+  description: Familiar with using AWS services for cloud-based applications and databases.
+
+- skill: Frontend Development
+  description: Familiar with using Next.js, Tailwind CSS, and TypeScript for building web applications.
+
+- skill: Database & Backend Development
+  description: Familiar with using Next.js, FastAPI, and Express.js for backend development, along with PostgreSQL, MySQL, and MongoDB for database management. (with Prisma)
