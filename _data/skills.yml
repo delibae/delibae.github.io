@@ -5,17 +5,20 @@
 
 # Deep Learning
 - skill: PyTorch Multi-GPU LLM Training & Kernel Fusing
-  description: Extensive experience in optimizing Large Language Models using PyTorch's distributed training capabilities. Specialized in kernel fusion techniques for maximizing GPU utilization and reducing memory overhead in complex deep learning architectures.
+  description: Advanced expertise in distributed deep learning optimization using PyTorch's DDP and FSDP frameworks for large-scale language model training. Specialized in custom CUDA kernel fusion implementation for computational graph optimization, gradient accumulation strategies, and mixed-precision training with automatic loss scaling. Proficient in memory-efficient training techniques including gradient checkpointing, ZeRO optimizer states, and advanced tensor parallelism for multi-billion parameter models.
 
 # Production
 - skill: DevOps & Infrastructure
-  description: Expert in implementing end-to-end CI/CD pipelines using Docker, Kubernetes, and ArgoCD. Proficient in managing development workflows with Jenkins and Jira, while ensuring secure credential management through Infisical.
+  description: Advanced expertise in containerized application deployment using Docker and Kubernetes orchestration with production-grade cluster management. Specialized in GitOps workflows with ArgoCD for automated continuous deployment, implementing comprehensive CI/CD pipelines through Jenkins with integrated testing and security scanning. Proficient in agile project management using Jira and enterprise-level secrets management with Infisical for secure credential distribution across environments.
 
-- skill: Cloud Architecture
-  description: Deep understanding of AWS ecosystem, including EC2, S3, RDS, and Lambda. Experience in designing scalable and cost-effective cloud infrastructures for production environments.
+- skill: Cloud Architecture & Cost Optimization
+  description: Expert in designing cost-efficient, scalable cloud infrastructures for startup environments. Specialized in AWS resource optimization using Reserved Instances, Spot Instances, and auto-scaling strategies. Proficient in implementing Infrastructure as Code (IaC) using Terraform/CloudFormation, and establishing comprehensive monitoring with CloudWatch and cost alerting systems for budget-conscious deployments.
 
 - skill: Frontend Development
-  description: Strong foundation in building responsive web applications using Next.js framework. Skilled in creating maintainable UI components with TypeScript and implementing modern designs through Tailwind CSS.
+  description: Expert in modern frontend architecture using Next.js with SSR/SSG optimization, advanced React patterns including custom hooks and context management. Proficient in TypeScript for type-safe development and component libraries, with extensive experience in CSS-in-JS solutions and Tailwind CSS for scalable design systems.
+
+- skill: Hybrid Mobile App Development
+  description: Advanced cross-platform development using Capacitor framework with native plugin integration. Expertise in bridging web technologies to native iOS/Android APIs, implementing performance optimization strategies for hybrid applications, and managing platform-specific build configurations for production deployment.
 
 - skill: Backend Development
   description: Proficient in developing RESTful APIs using FastAPI and Express.js frameworks. Experienced in designing and managing both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) databases, with expertise in Prisma ORM for type-safe database operations.

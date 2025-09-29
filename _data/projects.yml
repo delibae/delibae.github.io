@@ -4,21 +4,29 @@
 - project: mefriend.ai
   role: CTO
   duration: October, 2024 &mdash; Present
-  description: Leading the technical direction of an AI entertainment platform as CTO and co-founder. Fully responsible for the core inference system development and optimization. Oversee all technical aspects while also participating in overall strategic planning and vision as a founding member.
+  description: Leading the technical direction of an AI entertainment platform as CTO and co-founder with 300,000 global users. Fully responsible for the core inference system development and optimization. Oversee all technical aspects while also participating in overall strategic planning and vision as a founding member.
 
 - project: EnsBolz (Ensemble generation with Boltz)
   role: Co-First Author
-  duration: 2024 &mdash; Present
+  duration: 2024 &mdash; March, 2025
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=JTVXjXoAAAAJ&citation_for_view=JTVXjXoAAAAJ:d1gkVwhDpl0C"
   description: Developed EnsBolz, an ensemble generation tool utilizing Boltz. (selected as a speaker for the LA Biophysics Society 2025)
+
+- project: Legacy Web Project Migration & App Development
+  role: CTO
+  duration: June, 2025 &mdash; September, 2025
+  description: Successfully led a comprehensive migration from CRA to Next.js with progressive enhancement framework. Implemented monorepo architecture enabling simultaneous web and mobile app development using Capacitor. Achieved significant performance improvements with Web Vitals score increasing from 30 to 80 points, and successfully launched both enhanced web and mobile applications.
 
 - project: DeepFold-PLM
   role: Co-First Author
   duration: 2024 &mdash; Present
-  description: Developed plmMSA, a fast and diverse multiple sequence alignment tool utilizing a Protein Language Model. (Presented at CASP16 and LA Biophysics Society 2025)
+  url: "https://github.com/DeepFoldProtein/DeepFold-PLM"
+  description: Developed plmMSA, a fast and diverse multiple sequence alignment tool utilizing a Protein Language Model. Co-first author of the submitted manuscript. (Presented at CASP16 and LA Biophysics Society 2025)
 
 - project: CASP16 (DeepFold group)
   role: Co-First Author
   duration: August, 2023 &mdash; December, 2024
+  url: "https://predictioncenter.org/casp16/doc/CASP16_Abstracts.pdf"
   description: Achieved 3rd place in the Antibody/Peptide category. Developed plmMSA, a fast and diverse multiple sequence alignment tool utilizing a Protein Language Model.
 
 - project: AI Speaker Development Project
