@@ -30,12 +30,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "2.7.4" # or the version specified by your .ruby-version file
-          bundler-cache: false # We'll update RubyGems first
-      - name: Update RubyGems
-        run: gem update --system
-      - name: Install dependencies
-        run: bundle install
+          ruby-version: "3.2" # Updated to support newer RubyGems
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
