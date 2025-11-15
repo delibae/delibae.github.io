@@ -1,6 +1,6 @@
 # Resume template
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+_A simple Jekyll + GitHub Pages powered resume template._
 
 ![img](images/screenshot.png)
 
@@ -11,9 +11,27 @@
 To test locally, run the following in your terminal:
 
 1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+2. Install dependencies:
+
+   ```bash
+   bundle install
+   ```
+
+   **Note:** If you encounter bundler version issues:
+
+   - Install bundler: `gem install bundler --user-install`
+   - Add to your `~/.zshrc` or `~/.bashrc`: `export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"`
+   - If you have Ruby version conflicts, you may need to delete `Gemfile.lock` and run `bundle install` again
+
+3. Start the Jekyll server:
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Open your browser to `http://localhost:4000`
+
+The site will automatically reload when you make changes to the files.
 
 ### Running locally with Docker
 

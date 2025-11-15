@@ -87,30 +87,48 @@
 
         {% for publication in site.data.publications %}
         <div
-          class="resume-item"
+          class="resume-item publication-item"
           itemscope
           itemtype="http://schema.org/ScholarlyArticle"
         >
-          <h3 class="resume-item-title" itemprop="name">
+          <h3 class="resume-item-title publication-title" itemprop="name">
             {% if publication.url %}<a
               href="{{ publication.url }}"
               itemprop="url"
               >{{ publication.title }}</a
             >{% else %}{{ publication.title }}{% endif %}
           </h3>
-          <h4 class="resume-item-details" itemprop="author">
-            {{ publication.authors }}
+          <h4 class="resume-item-details publication-authors" itemprop="author">
+            {% assign authors_text = publication.authors %} {% if
+            publication.co_first_authors %} {% for co_first in
+            publication.co_first_authors %} {% if co_first == "Bae, Hanjin" %}
+            {% assign co_first_with_markup = '<span class="author-name"
+              >' | append: co_first | append: '</span
+            >' | append: '<sup class="dagger">†</sup>' %} {% else %} {% assign
+            co_first_with_markup = co_first | append: '<sup class="dagger"
+              >†</sup
+            >' %} {% endif %} {% assign authors_text = authors_text | replace:
+            co_first, co_first_with_markup %} {% endfor %} {% endif %} {% if
+            publication.corresponding_authors %} {% for corr_author in
+            publication.corresponding_authors %} {% assign corr_with_star =
+            corr_author | append: '<sup class="asterisk">*</sup>' %} {% assign
+            authors_text = authors_text | replace: corr_author, corr_with_star
+            %} {% endfor %} {% endif %} {{ authors_text }}
           </h4>
-          <p class="resume-item-copy">
+          <p class="resume-item-copy publication-info">
             <em>{{ publication.journal }}</em>
             {% if publication.volume %}vol. {{ publication.volume }}{% endif
             %}{% if publication.issue %}, no. {{ publication.issue }}{% endif
             %}{% if publication.pages %}, pp. {{ publication.pages }}{% endif %}
-            ({{ publication.year }}) {% if publication.doi %}<br /><a
-              href="{{ publication.doi }}"
-              >DOI</a
-            >{% endif %} {% if publication.note %}<br /><strong
-              >{{ publication.note }}</strong
+            ({{ publication.year }}){% if publication.publisher %}, {{
+            publication.publisher }}{% endif %} {% if
+            publication.co_first_authors or publication.corresponding_authors
+            %}<br /><span class="publication-footnote"
+              >{% if publication.co_first_authors %}<sup>†</sup>Equal
+              contribution{% endif %}{% if publication.co_first_authors and
+              publication.corresponding_authors %}; {% endif %}{% if
+              publication.corresponding_authors %}<sup>*</sup>Corresponding
+              authors{% endif %}</span
             >{% endif %}
           </p>
         </div>

@@ -2,11 +2,17 @@
 
 - title: "DeepFold-PLM: Accelerating Protein Structure Prediction via Efficient Homology Search Using Protein Language Models"
   authors: "Kim, Minsoo and Bae, Hanjin and Jo, Gyeongpil and Kim, Kunwoo and Lee, Sung Jong and Yoo, Jejoong and Joo, Keehyoung"
+  co_first_authors:
+    - "Kim, Minsoo"
+    - "Bae, Hanjin"
+  corresponding_authors:
+    - "Yoo, Jejoong"
+    - "Joo, Keehyoung"
   journal: "Bioinformatics"
+  publisher: "Oxford University Press (OUP)"
   volume: "41"
   issue: "11"
   year: "2025"
   pages: "1-13"
   doi: "https://doi.org/10.1093/bioinformatics/btaf579"
   url: "https://df-plm.deepfold.org/"
-  note: "Co-first author"
