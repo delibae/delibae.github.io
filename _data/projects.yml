@@ -21,7 +21,7 @@
   role: Co-First Author
   duration: 2024 &mdash; Present
   url: "https://github.com/DeepFoldProtein/DeepFold-PLM"
-  description: Developed plmMSA, a fast and diverse multiple sequence alignment tool utilizing a Protein Language Model. Co-first author of the manuscript published in Bioinformatics. (Presented at CASP16 and LA Biophysics Society 2025)
+  description: Developed plmMSA, a fast and diverse multiple sequence alignment tool utilizing a Protein Language Model. Published in Bioinformatics. (Presented at CASP16 and LA Biophysics Society 2025)
 
 - project: CASP16 (DeepFold group)
   role: Co-First Author
