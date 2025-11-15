@@ -29,9 +29,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.1" # Compatible with both newer RubyGems and existing dependencies
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
