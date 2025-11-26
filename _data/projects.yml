@@ -12,6 +12,11 @@
   url: "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=JTVXjXoAAAAJ&citation_for_view=JTVXjXoAAAAJ:d1gkVwhDpl0C"
   description: Developed EnsBolz, an ensemble generation tool utilizing Boltz. (selected as a speaker for the LA Biophysics Society 2025)
 
+- project: Digital Scent Kiosk
+  role: Lead Developer
+  duration: October, 2025 &mdash; Present
+  description: Developed perfume blending and recommendation kiosk software. Handled design, planning assistance, data collection, frontend, and backend development end-to-end. Currently scheduled to open at Hyundai Department Store.
+
 - project: Legacy Web Project Migration & App Development
   role: CTO
   duration: June, 2025 &mdash; September, 2025
