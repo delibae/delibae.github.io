@@ -10,7 +10,7 @@
   role: Co-First Author
   duration: 2024 &mdash; March, 2025
   url: "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=JTVXjXoAAAAJ&citation_for_view=JTVXjXoAAAAJ:d1gkVwhDpl0C"
-  description: Developed EnsBolz, an ensemble generation tool utilizing Boltz. (selected as a speaker for the LA Biophysics Society 2025)
+  description: Developed EnsBolz, an ensemble generation tool utilizing Boltz. (selected for presentation at the LA Biophysics Society 2025)
 
 - project: Digital Scent Kiosk
   role: Lead Developer
@@ -37,6 +37,7 @@
 - project: AI Speaker Development Project
   role: Lead Developer
   duration: October, 2023 &mdash; October, 2024
+  url: "https://naly.ai"
   description: Led the development of AI speaker's inference system and complex intelligence components, focusing on optimizing model performance and implementing advanced conversational capabilities.
 
 - project: LLaMa Inference Acceleration
