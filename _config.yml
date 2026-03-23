@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar: "false"
 resume_name: "Hanjin Bae"
-resume_title: "AI Researcher & Developer"
+resume_title: "AI Researcher & Software Developer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email: "iwdhanjin@gmail.com"
@@ -23,7 +23,7 @@ resume_contact_email: "iwdhanjin@gmail.com"
 # resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info: "false"
 
-resume_header_intro: "<p>I'm an AI researcher and developer specializing in protein structure prediction and large language models. Currently serving as CTO at mefriend.ai and as a Visiting Scientist at KIAS, I combine expertise in PyTorch multi-GPU computing, kernel optimization, and cloud infrastructure. My work spans from deep learning research to production deployment, with accomplishments in protein language models, and AI system optimization.</p>"
+resume_header_intro: "<p>AI researcher and full-stack software developer specializing in protein structure prediction, large language models, and end-to-end product development. Currently a Visiting Scientist at KIAS and running a freelance software development company serving clients such as DigitalScent and QuantumEye. Co-founder of mefriend.ai (300K+ users). My work spans deep learning research, cloud infrastructure, and production-grade software delivery — from kernel optimization and multi-GPU computing to frontend and backend development.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -46,6 +46,7 @@ resume_section_associations: false
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
+  resume_email: "iwdhanjin@gmail.com"
   resume_github_url: "https://github.com/delibae"
 resume_print_social_links: true
 
