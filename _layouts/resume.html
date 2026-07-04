@@ -92,8 +92,8 @@
           itemtype="http://schema.org/ScholarlyArticle"
         >
           <h3 class="resume-item-title publication-title" itemprop="name">
-            {% if publication.url %}<a
-              href="{{ publication.url }}"
+            {% if publication.doi %}<a
+              href="{{ publication.doi }}"
               itemprop="url"
               >{{ publication.title }}</a
             >{% else %}{{ publication.title }}{% endif %}
@@ -101,19 +101,17 @@
           <h4 class="resume-item-details publication-authors" itemprop="author">
             {% assign authors_text = publication.authors %} {% if
             publication.co_first_authors %} {% for co_first in
-            publication.co_first_authors %} {% if co_first == "Bae, Hanjin" %}
-            {% assign co_first_with_markup = '<span class="author-name"
-              >' | append: co_first | append: '</span
-            >' | append: '<sup class="dagger">†</sup>' %} {% else %} {% assign
-            co_first_with_markup = co_first | append: '<sup class="dagger"
-              >†</sup
-            >' %} {% endif %} {% assign authors_text = authors_text | replace:
-            co_first, co_first_with_markup %} {% endfor %} {% endif %} {% if
+            publication.co_first_authors %} {% assign co_first_with_markup =
+            co_first | append: '<sup class="dagger">†</sup>' %} {% assign
+            authors_text = authors_text | replace: co_first,
+            co_first_with_markup %} {% endfor %} {% endif %} {% if
             publication.corresponding_authors %} {% for corr_author in
             publication.corresponding_authors %} {% assign corr_with_star =
             corr_author | append: '<sup class="asterisk">*</sup>' %} {% assign
             authors_text = authors_text | replace: corr_author, corr_with_star
-            %} {% endfor %} {% endif %} {{ authors_text }}
+            %} {% endfor %} {% endif %} {% assign authors_text = authors_text |
+            replace: "Bae, Hanjin", '<span class="author-name">Bae, Hanjin</span>'
+            %} {{ authors_text }}
           </h4>
           <p class="resume-item-copy publication-info">
             <em>{{ publication.journal }}</em>
